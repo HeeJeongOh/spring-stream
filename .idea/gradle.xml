@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/rabbitMQ/order" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/rabbitMQ/order" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/rabbitMQ/payment" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/rabbitMQ/payment" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/rabbitMQ/product" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/rabbitMQ/product" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
