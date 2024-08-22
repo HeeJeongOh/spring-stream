@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/kafka/consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/kafka/producer" />
     <file type="web" url="file://$PROJECT_DIR$/rabbitMQ/order" />
     <file type="web" url="file://$PROJECT_DIR$/rabbitMQ/payment" />
     <file type="web" url="file://$PROJECT_DIR$/rabbitMQ/product" />
