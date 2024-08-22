@@ -1,4 +1,4 @@
-import com.kafka.producer;
+package com.kafka.producer;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class ProducerController {
 
-    private final ProducerService producerService;
+    private final ProducerServcie producerService;
 
     @GetMapping("/send")
     public String sendMessage(@RequestParam("topic") String topic,

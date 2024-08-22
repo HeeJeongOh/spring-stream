@@ -1,4 +1,4 @@
-import com.kafka.producer;
+package com.kafka.producer;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.kafka.core.KafkaTemplate;
@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class ProducerService {
+public class ProducerServcie {
 
     private final KafkaTemplate<String, String> kafkaTemplate;
 
